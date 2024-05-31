@@ -1,0 +1,71 @@
+body{
+    background-color: rebeccapurple;
+}
+
+h2{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con-form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+
+.form{
+width: 500px;
+display: flex;
+flex-direction: column;
+background-color: rgb(51, 51, 51);
+box-shadow:0px 0px 40px  20px rgb(31, 31, 31);
+padding: 10px;
+height: 510px;
+width: 350px;
+border-radius: 10px;
+
+}
+input{
+position: relative;
+
+border: none;
+border-radius: 20px;
+right:  -5%;
+width: 80%;
+padding: 15px 20px;
+margin-bottom: 40px;
+background-color: rgba(26, 26, 26, 0.479);
+font-size: 20px;
+}
+
+.btn {
+    position: relative;
+top: 50px;
+width: 80%;
+background-color: rgb(21, 182, 182);
+right:  -8%;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+font-size:20px ;
+cursor: pointer;
+transition: all 0.3s ;
+}
+
+.btn:hover {
+font-size: 22px;
+
+}
+
+
+.ss{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+
+}

@@ -1,0 +1,99 @@
+body{
+    background-color: rebeccapurple;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+h2{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(2, 69, 90, 0.712);
+    height: 500px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+.card-img{
+width: 250px;
+height: 200px;
+border-radius: 20px;
+
+}
+
+.card-body{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.card-body .card-title{
+    position: relative;
+font-size: 30px;
+margin-top: 10px;
+margin-bottom: 25px;
+
+
+}
+.card-body .card-text{
+font-size: 20px;
+margin: 0px;
+margin-bottom: 10px;
+
+}
+.card-body .card-text2{
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+background-color: brown;
+padding: 5px 10px;
+border-radius: 10px;
+
+}
+.card-body .btn{
+border: none;
+border-radius: 10px;
+
+padding: 5px 10px;
+font-size: 30px;
+cursor: pointer;
+transition: all 0.3s;
+margin-bottom: 10px;
+
+}
+.card-body .btn:hover{
+    font-size: 33px;
+
+
+
+}
+
+
+h3{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}

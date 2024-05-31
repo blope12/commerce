@@ -1,0 +1,47 @@
+.jumbotron{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(53, 53, 53, 0.267);
+}
+
+.nav {
+ justify-content: center;
+ 
+    display: flex;
+    margin-left: 100px;
+}
+
+
+.nav li{
+    display: flex;
+margin-left: 30px;
+}
+.nav li a {
+    color: white;
+text-decoration: none;
+font-size: 20px;
+font-weight: bolder;
+transition: all 0.3s;
+}
+.nav li a:hover{
+    color: rgba(255, 255, 255, 0.671);
+
+
+}
+
+h1{
+
+    margin-right: 200px;
+}
+
+.coo{
+color: rgb(196, 40, 40);
+
+
+}
+.coo strong{
+    color: blue;
+    
+    
+    }
