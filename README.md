@@ -1,4 +1,3 @@
-![image](https://github.com/blope12/commerce/assets/148343881/02d5973d-051d-4c6e-9751-2a4693e411b8)start
 ```
 python manage.py runserver
 ```
